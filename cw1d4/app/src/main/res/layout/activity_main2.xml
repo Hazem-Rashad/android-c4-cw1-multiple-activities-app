@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#969CBD"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="126dp"
+        android:text="اسم البرنامج"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="133dp"
+        android:layout_height="126dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="146dp"
+        app:srcCompat="@drawable/calce" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="10dp"
+        android:text="بيانات العميل :"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="-65dp"
+        android:text="الاسم"
+        android:textColor="#590404"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="-56dp"
+        android:text="حازم"
+        android:textColor="#FF0E0E"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/myname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="-76dp"
+        android:text="العمر"
+        android:textColor="#570404"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/myage"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="-74dp"
+        android:text="17"
+        android:textColor="#ED1F1F"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/myage"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="-69dp"
+        android:backgroundTint="#420404"
+        android:text="rest"
+        android:textSize="25dp" />
+
+</RelativeLayout>
